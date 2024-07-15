@@ -1,0 +1,21 @@
+{
+  "name": "space",
+  "version": "1.0.0",
+  "description": "space programming language",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node parser.js exp1.sp",
+    "tauri": "tauri",
+    "gen:grammar": "nearleyc grammar.ne -o grammar.js"
+  },
+  "keywords": [
+    "compiler"
+  ],
+  "author": "yalmengo",
+  "license": "ISC",
+  "dependencies": {
+    "moo": "^0.5.2",
+    "nearley": "^2.20.1"
+  }
+}
